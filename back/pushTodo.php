@@ -17,8 +17,10 @@ if (null === $text) {
 
 $newTodo = [
     'text' => $text,
-    'stato' => 'completato'
+    'stato' => 'non completato'
 ];
+
+
 
 $todo[] = $newTodo;
 
